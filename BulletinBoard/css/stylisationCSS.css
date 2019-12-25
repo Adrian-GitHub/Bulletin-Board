@@ -1,0 +1,54 @@
+﻿/* MY STYLISATION CSS FILE, IT MAKES WEBSITE LOOKS GREAT IF NOT AWESOME.*/
+
+.panel-img {
+    height: 150px;
+    width: 750px;
+    margin: 30px 0px 0px 310px;
+    border-style: groove;
+    border: 1px;
+    object-fit: cover;
+}
+.imagePosition {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2Style {
+  box-sizing: content-box;
+  border: none;
+  font: normal 84px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-overflow: clip;
+  text-shadow: 5px 5px 0 rgb(255,210,23) , 10px 10px 0 rgb(90,199,255) , 15px 14px 0 rgb(255,210,23) , 20px 20px 0 rgb(90,199,255) ;
+}
+.textStyle {
+    border: dashed;
+    font: normal 36px/normal, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.textboxstyle {
+    width: 221px;
+    background: transparent url('images/bg.jpg') no-repeat;
+    color: #747862;
+    height: 20px;
+    border: 0;
+    padding: 4px 8px;
+    margin-bottom: 0px;
+}
+body {
+    background-color: #eee;
+}
+*[role=form] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+}
+
+*[role=form] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
